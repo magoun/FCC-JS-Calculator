@@ -1,0 +1,119 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A calculator application built using JavaScript and the SwissCalc library.">
+
+	<link rel = "stylesheet"
+	type = "text/css"
+	href = "style.css" />
+	<link rel = "stylesheet"
+	type = "text/css"
+	href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel = "stylesheet"
+	type = "text/css"
+	href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />   
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/swisscalc.display.numericDisplay.js"></script>
+	<script src="js/swisscalc.display.memoryDisplay.js"></script>
+	<script src="js/swisscalc.display.fixedPointDisplay.js"></script>
+	<script src="js/swisscalc.lib.format.js"></script>
+	<script src="js/swisscalc.lib.operator.js"></script>
+	<script src="js/swisscalc.lib.operatorCache.js"></script>
+	<script src="js/swisscalc.lib.shuntingYard.js"></script>
+	<script src="js/swisscalc.calc.calculator.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+ <div class="container">
+  <div id="calculator-land">
+   <div id="screen">
+			<h1 id="output"></h1>
+   </div>
+   <!-- screen -->
+   <div id="btn-row-1">
+    <button class="btn" id="clearEntry">
+				<p>CE</p>
+				</button>
+    <button class="btn" id="clear">
+				<p>C</p>
+				</button>
+    <button class="btn" id="backspace">
+				<!-- TODO: Change to backspace graphic. Font awesome? -->
+				<p>Del</p>
+				</button>
+    <button class="btn" id="divide">
+				<p>/</p>
+				</button>
+   </div>
+   <!-- btn-row-1 -->
+   <div id="btn-row-2">
+    <button class="btn" id="seven">
+				<p>7</p>
+				</button>
+    <button class="btn" id="eight">
+				<p>8</p>
+				</button>
+    <button class="btn" id="nine">
+				<p>9</p>
+				</button>
+    <button class="btn" id="multiply">
+				<p>x</p>
+				</button>
+   </div>
+   <!-- btn-row-2 -->
+   <div id="btn-row-3">
+    <button class="btn" id="four">
+				<p>4</p>
+				</button>
+    <button class="btn" id="five">
+				<p>5</p>
+				</button>
+    <button class="btn" id="six">
+				<p>6</p>
+				</button>
+    <button class="btn" id="subtract">
+				<p>-</p>
+				</button>
+   </div>
+   <!-- btn-row-2 -->
+   <div id="btn-row-4">
+    <button class="btn" id="one">
+				<p>1</p>
+				</button>
+    <button class="btn" id="two">
+				<p>2</p>
+				</button>
+    <button class="btn" id="three">
+				<p>3</p>
+				</button>
+    <button class="btn" id="add">
+				<p>+</p>
+				</button>
+   </div>
+   <!-- btn-row-4 -->
+   <div id="btn-row-5">
+    <button class="btn" id="negate">
+				<p>+/-</p>
+				</button>
+    <button class="btn" id="zero">
+				<p>0</p>
+				</button>
+    <button class="btn" id="decimal">
+				<p>.</p>
+				</button>
+    <button class="btn" id="equals">
+				<p>=</p>
+				</button>
+   </div>
+   <!-- btn-row-5 -->
+  </div>
+  <!-- calculator-land -->
+ </div>
+ <!-- container -->
+</body>
+
+</html>
