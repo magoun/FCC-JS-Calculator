@@ -1,9 +1,10 @@
 p {
 	font-size: 1.2em;
+	margin: 0px;
+	font-weight: bold;
 }
 
 h1 {
-	margin: auto;
 	padding: 10px;
 }
 
@@ -16,7 +17,7 @@ div.container {
 }
 
 .btn {
-	padding: 8px 12px 0px;
+
 	margin: 2px auto;
 	height: 60px;
 	width: 60px;
@@ -24,8 +25,8 @@ div.container {
 
 #calculator-land {
 	text-align: center;
-	background: #FFFFFF;
-	padding: 10px 15px 10px 15px;
+	background: #A9A9A9;
+	padding: 0px 15px 15px;
 	border-radius: 10px;
 	margin: 20px;
 }
@@ -35,9 +36,11 @@ div.container {
 	height: 60px;
 	border-radius: 6px;
 	background: #F0F0F0;
+	margin-bottom: 3px;
 }
 
 body {
-	background-color: #ecbc8b;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23543b90' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+	background-color: #e6f0f1;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23a42709' fill-opacity='0.52'%3E%3Cpath fill-rule='evenodd' d='M5 3.59L1.46.05.05 1.46 3.59 5 .05 8.54l1.41 1.41L5 6.41l3.54 3.54 1.41-1.41L6.41 5l3.54-3.54L8.54.05 5 3.59zM17 2h24v2H17V2zm0 4h24v2H17V6zM2 17h2v24H2V17zm4 0h2v24H6V17z'/%3E%3C/g%3E%3C/svg%3E");
 }
+
