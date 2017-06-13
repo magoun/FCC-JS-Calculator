@@ -131,7 +131,8 @@ function equals () {
 $(document).ready(function() {
 	// Set initial state of calculator.
 	$("#output").text(calc.getMainDisplay());
-
+	
+	// Bind click events for buttons.
 	$("#one").click(one);
 	$("#two").click(two);
 	$("#three").click(three);
@@ -152,4 +153,81 @@ $(document).ready(function() {
 	$("#negate").click(negate);
 	$("#decimal").click(decimal);
 	$("#equals").click(equals);
+	
+	// Bind buttons to key presses.
+	$(document).keyup(function(key) {
+		switch (key.which) {
+			case 48:
+			case 96:
+				$("#zero")[0].click();
+				break;
+			case 49:
+			case 97:
+				$("#one")[0].click();
+				break;
+			case 50:
+			case 98:
+				$("#two")[0].click();
+				break;
+			case 51:
+			case 99:
+				$("#three")[0].click();
+				break;
+			case 52:
+			case 100:
+				$("#four")[0].click();
+				break;
+			case 53:
+			case 101:
+				$("#five")[0].click();
+				break;
+			case 54:
+			case 102:
+				$("#six")[0].click();
+				break;
+			case 55:
+			case 103:
+				$("#seven")[0].click();
+				break;
+			case 56:
+			case 104:
+				$("#eight")[0].click();
+				break;
+			case 57:
+			case 105:
+				$("#nine")[0].click();
+				break;
+			case 27:
+				$("#clear")[0].click();
+				break;
+			case 46:
+				$("#clearEntry")[0].click();
+				break;
+			case 8:
+				$("#backspace")[0].click();
+				break;
+			case 111:
+				$("#divide")[0].click();
+				break;
+			case 106:
+				$("#multiply")[0].click();
+				break;
+			case 109:
+				$("#subtract")[0].click();
+				break;
+			case 107:
+				$("#add")[0].click();
+				break;
+			case 189:
+				$("#negate")[0].click();
+				break;
+			case 110:
+			case 190:
+				$("#decimal")[0].click();
+				break;
+			case 13:
+				$("#equals")[0].click();
+				break;
+		}
+	});
 }); // Document Ready End
